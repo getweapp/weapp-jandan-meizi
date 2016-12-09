@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f57c00",
+    "navigationBarTitleText": "🍳 煎蛋妹子",
+    "navigationBarTextStyle":"light"
+  }
+}

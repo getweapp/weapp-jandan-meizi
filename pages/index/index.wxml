@@ -1,0 +1,6 @@
+<image src="{{images.length && images[current].url}}" class="slide-image" mode="aspectFit" style="width: {{width}}px; height:{{height}}px"/>
+<view class="action">
+<button bindtap="changePrev"> 回看 </button>
+<button bindtap="changeNext" wx:if="{{!autoplay}}"> 手动 </button>
+<button bindtap="changeAutoplay"> {{ (autoplay)?'取消自动':'自动' }} </button>
+</view>
