@@ -69,7 +69,8 @@ Page({
         const data = res.data
         console.log(data)
         const images = this.data.images
-        data.url = 'http://'+data.url.substr(7)
+        console.log('data.url:',data.url)
+        //data.url = 'http://'+data.url.substr(7)
         images.push(data)
         console.log(images)
         this.setData({
